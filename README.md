@@ -17,6 +17,7 @@
     - DB_DATABASE=library, 
     - DB_USERNAME=root, 
     - DB_PASSWORD=your_password
+   
 5. აპლიკაციის გასაღების გენერაცია: php artisan key:generate
 6. მიგრაციების გაშვება და სემპლ მონაცემების ჩასმა: php artisan migrate:fresh --seed
 7. აპლიკაციის გაშვება: php artisan serve, გახსენით ბრაუზერი http://127.0.0.1:8000. ავტომატურად გადამისამართდებით Authors გვერდზე, /books → წიგნების მართვა.
