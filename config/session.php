@@ -79,29 +79,11 @@ return [
         Str::slug((string) env('APP_NAME', 'laravel')).'-session'
     ),
 
-    /*
-    |--------------------------------------------------------------------------
-    | Session Cookie Path
-    |--------------------------------------------------------------------------
-    |
-    | The session cookie path determines the path for which the cookie will
-    | be regarded as available. Typically, this will be the root path of
-    | your application, but you're free to change this when necessary.
-    |
-    */
+
 
     'path' => env('SESSION_PATH', '/'),
 
-    /*
-    |--------------------------------------------------------------------------
-    | Session Cookie Domain
-    |--------------------------------------------------------------------------
-    |
-    | This value determines the domain and subdomains the session cookie is
-    | available to. By default, the cookie will be available to the root
-    | domain and all subdomains. Typically, this shouldn't be changed.
-    |
-    */
+
 
     'domain' => env('SESSION_DOMAIN'),
 
